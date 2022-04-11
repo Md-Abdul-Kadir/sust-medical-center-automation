@@ -1,0 +1,13 @@
+
+.navitem{
+    text-decoration: none;
+    padding:10px 20px;
+    color:rgb(255, 255, 255);
+}
+.navitem:hover{
+    color:rgb(193, 195, 195);
+}
+
+.nav_color{
+    background-color:#145477;
+}

@@ -1,0 +1,16 @@
+.pricingbanner{
+    background-image: url(../../Images/topbanner3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;;
+}
+
+.pExtraPrice{
+    padding-top:10%;
+}
+
+.imgpricing{
+    width:400px;
+    height:400px;
+
+}
