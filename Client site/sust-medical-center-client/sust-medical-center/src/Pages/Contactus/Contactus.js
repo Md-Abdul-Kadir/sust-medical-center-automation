@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import React from 'react';
 import Footer from '../Footer/Footer';
 import NavigationBar from '../NavigationBar/Navbar';
@@ -7,6 +7,7 @@ import clcokicon from '../../Images/icons/clock.png'
 import locicon from '../../Images/icons/location-pin.png'
 import callicon from '../../Images/icons/phone-call.png'
 import mailicon from '../../Images/icons/email.png'
+import GoogleMap from '../GoogleMap/GoogleMap';
 
 const Contactus = () => {
     return (
@@ -25,7 +26,34 @@ const Contactus = () => {
                 <div className="container py-5">
                 <div className="row py-5">
                     <div className="col-8">
-                            <h3 className="text-start">Get In Touch</h3>
+                            <h3 className="text-theme text-start fw-bold">Get In Touch</h3>
+                            <form action="" className="text-start">
+                                <div className="d-flex pt-4">
+                                    <div className="w-50 pe-lg-4">
+                                    <p className="text-start mb-1">Name</p>
+                                        <input type="text" name="contactName" id="" className="w-100 h-75 pe-3"/>
+                                   </div>
+                                    <div className="w-50 px-lg-3">
+                                    <p className="text-start mb-1">Email</p>
+                                    <input type="text" name="contactName" id="" className="w-100 h-75"/>
+                                   </div>
+                                </div>
+                                <div className="d-flex pt-5">
+                                    <div className="w-50 pe-lg-4">
+                                    <p className="text-start mb-1">Phone</p>
+                                    <input type="text" name="contactName" id="" className="w-100 h-75 pe-3  "/>
+                                   </div>
+                                    <div className="w-50 px-lg-3">
+                                    <p className="text-start mb-1">Appointment For</p>
+                                    <input type="text" name="contactName" id="" className="w-100 h-75"/>
+                                   </div>
+                                </div>
+                                <div className="pt-5 pe-lg-3">
+                                    <p className="mb-1 text-start">Message</p>
+                                    <textarea name="ContactArea" className="w-100 h-50" id="" cols="30" rows="5"></textarea>
+                                </div>
+                                <input type="submit" value="SUBMIT" className="bg-theme text-white px-5 py-2 my-4" />
+                            </form>
             
 
              
@@ -111,8 +139,13 @@ const Contactus = () => {
                 </div>
                 
             </div>
-
+           
+            <div className="mapview">
+            <GoogleMap></GoogleMap>
+            </div>
             <Footer></Footer>
+        
+            
         </div>
     );
 };
