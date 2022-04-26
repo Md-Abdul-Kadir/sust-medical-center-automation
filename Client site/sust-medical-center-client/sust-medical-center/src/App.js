@@ -8,6 +8,7 @@ import OurTrainer from './Pages/OurTrainers/OurTrainer';
 import Services from './Pages/Services/Services';
 import Pricing from './Pages/Pricing/Pricing';
 import Contactus from './Pages/Contactus/Contactus';
+import CovidCare from './Pages/CovidCare/CovidCare';
 
 
 
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/home">
            <Home></Home>
+          </Route>
+          <Route path="/covidcare">
+          <CovidCare></CovidCare>
           </Route>
           <Route path="/aboutus">
            <Aboutus></Aboutus>

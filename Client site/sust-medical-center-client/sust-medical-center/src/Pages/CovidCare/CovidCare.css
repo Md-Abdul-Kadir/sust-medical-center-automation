@@ -1,0 +1,42 @@
+.bg-body{
+    background-color: #ffffff;
+    font-family: 'poppins' ,sans-serif;
+}
+.h3-color{
+    color: #ec3a34;
+    font-weight: 600;
+
+}
+.h1-color{
+    color: #145477 ;
+    font-weight: bold;
+    
+    
+}
+.h2-color{
+    color: #145477 ;
+    font-weight: bold;
+    
+    
+}
+.btn-color{
+    background-color: #145477;
+    padding: 3% 7%;
+    
+}
+.pc{
+    color: rgb(239, 41, 80);
+    padding: 2% 3%;
+    background-color: rgb(255, 212, 212);
+    border-radius: 50% ;
+    
+}
+.extra-margin-top{
+    margin-top: 10% !important;
+    margin-bottom: 5% !important;
+}
+a:hover{
+    
+    font-weight: bold;
+
+}
