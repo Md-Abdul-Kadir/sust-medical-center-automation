@@ -1,0 +1,9 @@
+
+.navitem{
+    text-decoration: none;
+    padding:10px 20px;
+    color:gray;
+}
+.navitem:hover{
+    color:azure;
+}
