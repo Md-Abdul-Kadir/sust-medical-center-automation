@@ -56,11 +56,11 @@ const NavigationBar = () => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav text-light">
-                   <Nav.Link className="text-light pe-4" as={Link} to="/home">Home</Nav.Link>
+                  <Nav.Link className="text-light pe-4" as={Link} to="/home">Home</Nav.Link>
+                  <Nav.Link className="text-light px-4" as={Link} to="/treatment ">Treatment</Nav.Link>
                    <Nav.Link className="text-light px-4" as={Link} to="/appointment">Appointment</Nav.Link>
                     <Nav.Link className="text-light px-4" as={Link} to="/clearance">Clearance</Nav.Link>
                     <Nav.Link className="text-light px-4"  as={Link} to="/covidcare">Covid-Care</Nav.Link>
-                   <Nav.Link className="text-light px-4" as={Link} to="/notice ">Notice</Nav.Link>
                     <Nav.Link className="text-light px-4" as={Link} to="/aboutus">About Us</Nav.Link>
                     <Nav.Link className="text-light ps-4" as={Link} to="/contactus">Contact Us</Nav.Link>
                     

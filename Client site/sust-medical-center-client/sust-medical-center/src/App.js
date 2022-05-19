@@ -3,12 +3,11 @@ import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Notfound from './Pages/Notfound/Notfound';
 import Aboutus from './Pages/Aboutus/Aboutus';
-
-import OurTrainer from './Pages/OurTrainers/OurTrainer';
-import Services from './Pages/Services/Services';
-import Pricing from './Pages/Pricing/Pricing';
 import Contactus from './Pages/Contactus/Contactus';
 import CovidCare from './Pages/CovidCare/CovidCare';
+import Appointment from './Pages/Appointment/Appointment';
+import Clearance from './Pages/Clearance/Clearance';
+import Treatment from './Pages/Treatment/Treatment';
 
 
 
@@ -37,14 +36,14 @@ function App() {
           <Route path="/contactus">
           <Contactus></Contactus>
           </Route>
-          <Route path="/services">
-          <Services></Services>
+          <Route path="/appointment">
+          <Appointment></Appointment>
           </Route>       
-          <Route path="/pricing">
-          <Pricing></Pricing>
+          <Route path="/clearance">
+          <Clearance></Clearance>
           </Route>     
-          <Route path="/ourtrainer">
-           <OurTrainer></OurTrainer>
+          <Route path="/treatment">
+           <Treatment></Treatment>
           </Route>
           <Route path="*">
           <Notfound></Notfound>

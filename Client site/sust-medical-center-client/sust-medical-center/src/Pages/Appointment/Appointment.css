@@ -15,6 +15,9 @@
 .bg-theme{
     background-color:#145477;
 }
+.txt-theme{
+    color:#145477;
+}
 .bb{
     border-bottom: solid 1px white;
 }

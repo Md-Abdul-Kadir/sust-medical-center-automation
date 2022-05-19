@@ -18,9 +18,15 @@ import p11 from '../../Images/CovidCare/map (3).png';
 const CovidCare = () => {
     return (
         <div>
-            <NavigationBar></NavigationBar>
-       <div class="bg-body">
-         <header>
+             <NavigationBar></NavigationBar>
+            
+            {/* top image */}
+            <div className="top-banner">
+               <h3 className="big-txt">Covid Care</h3>
+               <p className="text-white">Home / Covid Care</p>
+              </div>
+          <div class="bg-body">
+          <header>
       
 
         {/* banner section  */}
@@ -28,12 +34,12 @@ const CovidCare = () => {
         <section class="container my-5" >
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-lg-6 ">
-                    <h3 class="h3-color">COVID-19 ALERT</h3>
-                     <h1 class="h1-color">Stay at Home quarantine To stop Corona virus
-                    </h1>
+                    <h4 class="h3-color">COVID-19 ALERT</h4>
+                     <h2 class="h1-color my-lg-3">Stay at Home quarantine To stop Corona virus
+                    </h2>
                     <p>There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to .
                     </p>
-                    <button class="btn btn-color text-white rounded-pill">LET US HELP</button>
+                    <a href="https://corona.gov.bd/?gclid=CjwKCAjwsJ6TBhAIEiwAfl4TWGnXlEZ2EJuKV0nrE9DaZ2o7qcnE0ZLu9URNpyFpg1x4oQkJiGMCzhoCwpIQAvD_BwE" target="blank"><button class="btn btn-color text-white rounded-pill">LET US HELP</button></a>
                 </div>
                 <div class="col-12 col-lg-6">
                     <img class="img-fluid" src={p1} alt=""/>
@@ -53,10 +59,14 @@ const CovidCare = () => {
                 <div class="col-12 col-lg-6">
                     <h4 class="h3-color">What is Covid-19
                     </h4>
-                    <h1 class="h1-color">Coronavirus</h1>
+                    <h2 class="h1-color mb-lg-5">Coronavirus</h2>
                    <p>Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory illness now called COVID-19.Lauren Sauer, M.S., the director of operations with the Johns Hopkins Office of Critical Event Preparedness and Response
-                   </p>
-                   <button class="btn btn-color text-white rounded-pill">LEARN MORE</button>
+                                </p>
+                                
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="blank"><button class="btn btn-color text-white rounded-pill">LEARN MORE</button></a>
+                                
+                   
+                   
                 </div>
             </div>
         </section>
@@ -67,8 +77,8 @@ const CovidCare = () => {
         <section class="container text-center my-5" id="Contagion">
             <h4 class="h3-color">Covid-19
             </h4>
-            <h1 class="h1-color">Contagion
-            </h1>
+            <h2 class="h1-color mb-lg-5">Contagion
+            </h2>
             <p>Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type</p>
             <div class="row row-cols-1 row-cols-md-3 g-4 border-0 my-5">
                 <div class="col">
@@ -125,8 +135,8 @@ const CovidCare = () => {
             <div>
                 <h4 class="h3-color">Covid-19
                 </h4>
-                <h1 class="h1-color">Symptomps
-                </h1>
+                <h2 class="h1-color mb-lg-5">Symptomps
+                </h2>
                 <p>Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type
                 </p>
             </div>
@@ -141,8 +151,8 @@ const CovidCare = () => {
         <section class="container my-5 " id="Prevension">
             <h4 class="h3-color text-center">Covid-19
             </h4>
-            <h1 class="h1-color text-center">What should we do
-            </h1>
+            <h2 class="h1-color text-center mb-lg-5">What should we do
+            </h2>
             <p class="text-center">Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type
             </p>
            <div class="row d-flex my-5 align-items-center">
