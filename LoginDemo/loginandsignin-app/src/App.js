@@ -4,6 +4,7 @@ import Home from './Pages/Home/Home';
 import Notfound from './Pages/Notfound/Notfound';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Resigter/Register';
+import Profile from './Pages/Profile/Profile';
 
 
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/home" element={<Home />}></Route>
           <Route path="/login" element={<Login/>}></Route> 
           <Route path="/register" element={<Register/>}></Route>
+          <Route path="/profile" element={<Profile/>}></Route>
           <Route path="*" element={<Notfound/>}>
           </Route>
           
