@@ -1,0 +1,70 @@
+.top-banner{
+   
+    background-image: url(../../Images/top11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:250px;
+    
+}
+
+.big-txt{
+    padding-top:5%;
+    color:azure;
+    font-size:50px;
+}
+.bg-theme{
+    background-color:#145477;
+}
+.bb{
+    border-bottom: solid 1px white;
+}
+.bg-offwhite{
+    background-color:rgb(211, 226, 248);
+}
+.bbb{
+    border-bottom: solid 1px rgb(123, 115, 115);
+    
+}
+
+.bg-body{
+    background-color: #ffffff;
+    font-family: 'poppins' ,sans-serif;
+}
+.h3-color{
+    color: #ec3a34;
+    font-weight: 500;
+
+}
+.h1-color{
+    color: #145477 ;
+    font-weight: bold;
+    
+    
+}
+.h2-color{
+    color: #145477 ;
+    font-weight: bold;
+    
+    
+}
+.btn-color{
+    background-color: #145477;
+    padding: 2% 5%;
+    
+}
+.pc{
+    color: rgb(239, 41, 80);
+    padding: 2% 3%;
+    background-color: rgb(255, 212, 212);
+    border-radius: 50% ;
+    
+}
+.extra-margin-top{
+    margin-top: 10% !important;
+    margin-bottom: 5% !important;
+}
+a:hover{
+    
+    font-weight: bold;
+
+}

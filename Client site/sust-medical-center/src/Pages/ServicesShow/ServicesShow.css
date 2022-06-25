@@ -1,0 +1,15 @@
+
+.cardImg{
+    width:400px;
+}
+
+.themeColorCard{
+    color:gray
+}
+.imgHeight{
+    height:500px;
+}
+/* .imgsize:hover{
+    transform:scale(1.2);
+    transition-duration: 1ms;
+} */
