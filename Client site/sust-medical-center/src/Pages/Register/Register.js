@@ -13,7 +13,7 @@ const Register = () => {
       <NavigationBar></NavigationBar>
       <div className="logBG p-md-5">
         <Container className="p-md-5 mx-auto  row">
-          <div className="col-md-6 col-sm-12 p-5 h-100 formDiv marginBottom bg-theme shadow-lg">
+          <div className="col-md-6 col-sm-12 p-5 h-100 formDiv marginBottom bg-theme-light shadow-lg">
             <h3 className=" text-theme fw-bold mb-5">Please Sign Up</h3>
             <form className="">
               <input
