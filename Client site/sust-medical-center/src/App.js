@@ -10,6 +10,8 @@ import Clearance from './Pages/Clearance/Clearance';
 import Treatment from './Pages/Treatment/Treatment';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
+import Profile from './Pages/Profile/Profile';
+import ProfileEdit from './Pages/ProfileEdit/ProfileEdit';
 
 
 
@@ -54,7 +56,10 @@ function App() {
           <Register></Register>
           </Route>
           <Route path="/profile">
-          <Home></Home>
+          <Profile></Profile>
+          </Route>
+          <Route path="/profile-edit">
+          <ProfileEdit></ProfileEdit>
           </Route>
           <Route path="*">
           <Notfound></Notfound>
