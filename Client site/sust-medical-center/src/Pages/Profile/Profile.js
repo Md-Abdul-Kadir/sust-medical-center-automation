@@ -17,6 +17,7 @@ const Profile = () => {
       <div class="row py-5 px-4">
         <div class="col-md-8 mx-auto">
           <div class="bg-white shadow rounded overflow-hidden">
+
             <div class="px-4 pt-0 pb-4 mb-5 cover">
               <div class="media align-items-end profile-head">
                 <div class="profile mr-3 imgmargin">
@@ -94,30 +95,34 @@ const Profile = () => {
                 </div>
               </div>
             </div>
-            <div class="py-4 px-4">
+            <div class="py-4 px-4 mt-53">
               <div class="d-flex align-items-center justify-content-between mb-3">
                 <h5 class="mb-0">Recent Prescriptions</h5>
               </div>
               <div class="row">
-                <div class=" my-2 pr-lg-1 d-flex bg-theme p-2 rounded-3 text-light">
+                <div class=" my-3 pr-lg-1 d-flex bg-theme p-2 rounded-3 text-light shadow-lg">
                   <date className="my-auto w-25">22/7/2020</date>
                   <p className="my-auto w-50">Headaches and Fever </p>
-                  <button className="btn btn-danger w-25">view details</button>
-                              </div>
-                              <div class=" my-2 pr-lg-1 d-flex bg-theme p-2 rounded-3 text-light">
+                  <button className="btn btn-light w-25">View Details</button>
+                </div>
+                <div class=" my-3 pr-lg-1 d-flex bg-theme p-2 rounded-3 text-light shadow-lg">
                   <date className="my-auto w-25">10/7/2020</date>
                   <p className="my-auto w-50">Common cold</p>
-                  <button className="btn btn-danger w-25">view details</button>
-                              </div>
-                              <div class=" my-2 pr-lg-1 d-flex bg-theme p-2 rounded-3 text-light">
+                  <button className="btn btn-light w-25">View Details</button>
+                </div>
+                <div class=" my-3 pr-lg-1 d-flex bg-theme p-2 rounded-3 text-light shadow-lg">
                   <date className="my-auto w-25">02/7/2020</date>
                   <p className="my-auto w-50">Low pressure</p>
-                  <button className="btn btn-danger w-25">view details</button>
+                  <button className="btn btn-light w-25">View Details</button>
                 </div>
               </div>
             </div>
+            <button className="btn text-light bg-theme w-25 my-5 shadow-lg">Logout</button>
           </div>
-        </div>
+          
+              </div>
+              
+              
       </div>
 
       <Footer></Footer>
