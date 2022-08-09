@@ -154,6 +154,9 @@ const NavigationBar = () => {
               </Button>
               <Nav.Link className="text-light px-3" as={Link} to="/profile">
                 Profile
+                </Nav.Link>
+                <Nav.Link className="text-light px-3" as={Link} to="/admin">
+                Admin
               </Nav.Link>
               </Nav>
             </div>

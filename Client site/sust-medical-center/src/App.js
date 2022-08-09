@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter,Switch,Route } from 'react-router-dom';
+import { BrowserRouter,Switch,Route} from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Notfound from './Pages/Notfound/Notfound';
 import Aboutus from './Pages/Aboutus/Aboutus';
@@ -12,6 +12,7 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import Profile from './Pages/Profile/Profile';
 import ProfileEdit from './Pages/ProfileEdit/ProfileEdit';
+import AdminDashboard from './Pages/AdminDashboard/AdminDashboard';
 
 
 
@@ -60,6 +61,9 @@ function App() {
           </Route>
           <Route path="/profile-edit">
           <ProfileEdit></ProfileEdit>
+          </Route>
+          <Route path="/admin">
+           <AdminDashboard></AdminDashboard>
           </Route>
           <Route path="*">
           <Notfound></Notfound>
