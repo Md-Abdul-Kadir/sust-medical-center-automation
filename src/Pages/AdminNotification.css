@@ -1,0 +1,40 @@
+.employees {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border: 3px solid black;
+  }
+  
+  .employee {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .employee h3 {
+    margin: 20px;
+  }
+
+  .big-txt{
+    padding-top:5%;
+    color:azure;
+    font-size:50px;
+}
+.bg-theme{
+    background-color:#145477;
+}
+.bb{
+    border-bottom: solid 1px rgb(19, 18, 18);
+}
+.bg-offwhite{
+    background-color:rgb(211, 226, 248);
+}
+.bbb{
+    border-bottom: solid 1px rgb(27, 5, 5);
+    
+}

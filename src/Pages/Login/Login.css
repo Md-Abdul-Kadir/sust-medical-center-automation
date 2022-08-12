@@ -1,0 +1,29 @@
+.mex{
+    margin:5%;
+   
+}
+
+.marginBottom{
+    margin-bottom:20%;
+}
+.marginXl{
+    margin-top:10%;
+    margin-bottom:20%;
+}
+.logBG{
+    background-image:url('../../Images/Login/doctor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.themeColor{
+    background-color: #145477;
+}
+.text-theme{
+    color: #145477;
+}
+.bg-theme-light{
+    background-color: #b8e9ff;
+}
+.text-shada{
+    color:white;
+}
