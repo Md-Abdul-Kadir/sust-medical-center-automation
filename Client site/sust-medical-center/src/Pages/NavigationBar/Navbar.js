@@ -8,8 +8,7 @@ import Avatar from "@mui/material/Avatar";
 import logo from "../../Images/Banner/sustlogo/logo.png";
 import callicon from "../../Images/icons/phone-icons.png";
 import amboIcon from "../../Images/icons/ambulance-lights.png";
-import Button from 'react-bootstrap/Button';
-
+import Button from "react-bootstrap/Button";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
@@ -132,42 +131,43 @@ const NavigationBar = () => {
                 <Nav.Link className="text-light px-3" as={Link} to="/aboutus">
                   About Us
                 </Nav.Link>
-                <Nav.Link className="text-light ps-3 " as={Link} to="/contactus">
+                <Nav.Link
+                  className="text-light ps-3 "
+                  as={Link}
+                  to="/contactus"
+                >
                   Contact Us
                 </Nav.Link>
 
-              
+                {/*               
+                <Nav.Link className="text-light px-3" as={Link} to="/profile">
+                Profile
+                </Nav.Link> */}
               </Nav>
               <Nav className="my-auto">
-              <Nav.Link className="text-light px-3" as={Link} to="/login">
-                LogIn
+                <Nav.Link className="text-light px-3" as={Link} to="/login">
+                  LogIn
                 </Nav.Link>
-            
-              <Button variant="outline-light my-0 py-0">
-              <Nav.Link
-                  className="text-light"
-                  as={Link}
-                  to="/register"
-                >
-                  Register
-                </Nav.Link>
-              </Button>
-              <Nav.Link className="text-light px-3" as={Link} to="/profile">
-                Profile
-                </Nav.Link>
-                <Nav.Link className="text-light px-3" as={Link} to="/admin">
+
+                <Button variant="outline-light my-0 py-0">
+                  <Nav.Link className="text-light" as={Link} to="/register">
+                    Register
+                  </Nav.Link>
+                </Button>
+
+                {/* <Nav.Link className="text-light px-3" as={Link} to="/admin">
                 Admin
-              </Nav.Link>
+              </Nav.Link> */}
               </Nav>
             </div>
 
-            <StyledBadge
+            {/* <StyledBadge
               overlap="circular"
               anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
               variant="dot"
             >
               <Avatar alt="Profile" src="/broken-image.jpg" />
-            </StyledBadge>
+            </StyledBadge> */}
           </div>
         </nav>
       </div>

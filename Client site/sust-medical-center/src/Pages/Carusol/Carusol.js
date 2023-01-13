@@ -13,7 +13,7 @@ const Carusol = () => {
           <img className="d-block w-100" src={b2} alt="Second slide" />
 
           <Carousel.Caption>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Shahjajal University Medical Center</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
