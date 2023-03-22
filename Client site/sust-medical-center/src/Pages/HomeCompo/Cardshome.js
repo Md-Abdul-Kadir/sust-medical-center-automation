@@ -10,7 +10,8 @@ const Cardshome = () => {
     return (
         <div>
             <div className="my-5 pt-5">
-                <h1 className="text-theme">- Our Services -</h1>
+                <h1 className="text-theme">Our Services</h1>
+                <hr/>
                 <p>To give real service you must add something which cannot be bought or measured with money, and that is sincerity and integrity.</p>
             </div>
           
